@@ -96,17 +96,19 @@
                         <input type="text" class="search-query" placeholder="Search">
                     </form>
                 </div>
+                	 <?php if (Yii::app()->user->isGuest) { ?>
                 <div class="login_bar pull-right">
-                    <a href="#"> Register</a>
-                    <a href="#"> Login</a>
+                    <?php echo CHtml::link('Register', array('/user/registration')); ?>
+                    <?php echo CHtml::link('Login', array('/user/login')); ?>
 
                 </div>
+                	<?php }?>
             </div>
             <div class="row">
                 <div class="navbar  pull-right">
                     <div class="navbar-inner">
                         <ul class="nav">
-                            <li class="active"><a href="#">Discover great projects</a></li>
+                            <li class="active"> <?php echo CHtml::link('Discover great projects', array('')); ?></li>
                             <li><a href="#">Advertise your project</a></li>
                             <li><a href="#">Transaction</a></li>
                         </ul>

@@ -108,7 +108,7 @@
                 <div class="navbar  pull-right">
                     <div class="navbar-inner">
                         <ul class="nav">
-                            <li class="active"> <?php echo CHtml::link('Discover great projects', array('')); ?></li>
+                            <li class="active"> <?php echo CHtml::link('Discover great projects', array('/site/index')); ?></li>
                             <li><a href="#">Advertise your project</a></li>
                             <li><a href="#">Transaction</a></li>
                         </ul>
@@ -156,7 +156,7 @@
     <div class="line"></div>
     <div class="row">
         <div class="span3">
-            <a href="#">Home</a> <br/>
+            <?php echo CHtml::link('Home', array('')); ?> <br/>
             <a href="#">About Us</a>
         </div>
         <div class="span3">

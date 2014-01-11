@@ -14,6 +14,7 @@
     <file path="/SiteController.php" changelist="378bee65-5d63-473d-b0ba-2502514be015" time="1389200594073" ignored="false" />
     <file path="/listideality.php" changelist="378bee65-5d63-473d-b0ba-2502514be015" time="1389198451334" ignored="false" />
     <file path="/Category.php" changelist="378bee65-5d63-473d-b0ba-2502514be015" time="1389194716248" ignored="false" />
+    <file path="/pastideality.php" changelist="378bee65-5d63-473d-b0ba-2502514be015" time="1389279976356" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
       <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="35" selection-start="4173" selection-end="4173" vertical-scroll-proportion="-16.153847">
+            <state line="131" column="35" selection-start="4173" selection-end="4173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -45,7 +46,7 @@
       <file leaf-file-name="listideality.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/listideality.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="5" selection-start="711" selection-end="711" vertical-scroll-proportion="-14.038462">
+            <state line="24" column="5" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -54,7 +55,16 @@
       <file leaf-file-name="pastideality.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/pastideality.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="6" selection-start="834" selection-end="834" vertical-scroll-proportion="-17.653847">
+            <state line="24" column="177" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-14.692307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdealityController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/IdealityController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="124" column="56" selection-start="3066" selection-end="3066" vertical-scroll-proportion="-10.923077">
               <folding />
             </state>
           </provider>
@@ -63,7 +73,7 @@
       <file leaf-file-name="Ideality.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/Ideality.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="64" selection-start="1761" selection-end="1761" vertical-scroll-proportion="-13.807693">
+            <state line="54" column="64" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,7 +82,7 @@
       <file leaf-file-name="Category.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="46" selection-start="1103" selection-end="1103" vertical-scroll-proportion="-15.5">
+            <state line="44" column="46" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,13 +91,12 @@
       <file leaf-file-name="front-end.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/layouts/front-end.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="93" selection-start="5011" selection-end="5011" vertical-scroll-proportion="0.66534656">
+            <state line="110" column="106" selection-start="3605" selection-end="3605" vertical-scroll-proportion="0.7227723">
               <folding>
-                <marker date="1389200636681" expanded="true" signature="798:836" placeholder="..." />
-                <marker date="1389200636681" expanded="true" signature="4488:4732" placeholder="..." />
-                <marker date="1389200636681" expanded="true" signature="4536:4732" placeholder="..." />
-                <marker date="1389200636681" expanded="true" signature="4582:4732" placeholder="..." />
-                <marker date="1389200636681" expanded="true" signature="5265:5593" placeholder="..." />
+                <marker date="1389280210031" expanded="true" signature="798:836" placeholder="..." />
+                <marker date="1389280210031" expanded="true" signature="4689:4933" placeholder="..." />
+                <marker date="1389280210031" expanded="true" signature="4737:4933" placeholder="..." />
+                <marker date="1389280210031" expanded="true" signature="4783:4933" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -104,7 +113,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/protected/views/category/_form.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/IdealityController.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/modules/user/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/protected/modules/user/controllers/AdminController.php" />
@@ -117,6 +125,7 @@
         <option value="$PROJECT_DIR$/protected/models/Ideality.php" />
         <option value="$PROJECT_DIR$/protected/views/site/listideality.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/IdealityController.php" />
         <option value="$PROJECT_DIR$/protected/views/site/pastideality.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/front-end.php" />
       </list>
@@ -317,7 +326,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2406542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24454829" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -393,120 +402,101 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/controllers/IdealityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="227" selection-end="264" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/simple-sidebar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/user/controllers/ProfileController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="129" selection-end="129" vertical-scroll-proportion="0.17102616">
-          <folding />
-        </state>
+        <state line="5" column="41" selection-start="129" selection-end="129" vertical-scroll-proportion="0.17102616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/user/controllers/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="125" selection-end="125" vertical-scroll-proportion="0.17102616">
-          <folding />
-        </state>
+        <state line="5" column="41" selection-start="125" selection-end="125" vertical-scroll-proportion="0.17102616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/user/controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.27364185">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.27364185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/user/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="172" selection-end="181" vertical-scroll-proportion="0.26254827">
-          <folding />
-        </state>
+        <state line="8" column="39" selection-start="172" selection-end="181" vertical-scroll-proportion="0.26254827" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/user/views/profile/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="101" selection-start="2614" selection-end="2614" vertical-scroll-proportion="-17.653847">
-          <folding />
-        </state>
+        <state line="58" column="101" selection-start="2614" selection-end="2614" vertical-scroll-proportion="-17.653847" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="25" selection-start="2704" selection-end="2704" vertical-scroll-proportion="0.3138833">
-          <folding />
-        </state>
+        <state line="56" column="25" selection-start="2704" selection-end="2704" vertical-scroll-proportion="0.3138833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/rights/components/RWebUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="5" selection-start="4750" selection-end="4750" vertical-scroll-proportion="0.9168317">
-          <folding />
-        </state>
+        <state line="123" column="5" selection-start="4750" selection-end="4750" vertical-scroll-proportion="0.9168317" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="46" selection-start="1103" selection-end="1103" vertical-scroll-proportion="-15.5">
+        <state line="44" column="46" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="21" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.33204633">
-          <folding />
-        </state>
+        <state line="67" column="21" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.33204633" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Ideality.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="64" selection-start="1761" selection-end="1761" vertical-scroll-proportion="-13.807693">
+        <state line="54" column="64" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="35" selection-start="4173" selection-end="4173" vertical-scroll-proportion="-16.153847">
+        <state line="131" column="35" selection-start="4173" selection-end="4173" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/listideality.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="711" selection-end="711" vertical-scroll-proportion="-14.038462">
+        <state line="24" column="5" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/IdealityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="56" selection-start="3066" selection-end="3066" vertical-scroll-proportion="-10.923077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/pastideality.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="834" selection-end="834" vertical-scroll-proportion="-17.653847">
+        <state line="24" column="177" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-14.692307">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/front-end.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="93" selection-start="5011" selection-end="5011" vertical-scroll-proportion="0.66534656">
+        <state line="110" column="106" selection-start="3605" selection-end="3605" vertical-scroll-proportion="0.7227723">
           <folding>
-            <marker date="1389200636681" expanded="true" signature="798:836" placeholder="..." />
-            <marker date="1389200636681" expanded="true" signature="4488:4732" placeholder="..." />
-            <marker date="1389200636681" expanded="true" signature="4536:4732" placeholder="..." />
-            <marker date="1389200636681" expanded="true" signature="4582:4732" placeholder="..." />
-            <marker date="1389200636681" expanded="true" signature="5265:5593" placeholder="..." />
+            <marker date="1389280210031" expanded="true" signature="798:836" placeholder="..." />
+            <marker date="1389280210031" expanded="true" signature="4689:4933" placeholder="..." />
+            <marker date="1389280210031" expanded="true" signature="4737:4933" placeholder="..." />
+            <marker date="1389280210031" expanded="true" signature="4783:4933" placeholder="..." />
           </folding>
         </state>
       </provider>

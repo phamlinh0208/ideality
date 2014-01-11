@@ -445,3 +445,206 @@ in C:\xampp\htdocs\ideality\index.php (13)
 2014/01/09 02:41:17 [warning] [application] Failed to set unsafe attribute "file_attach" of "Ideality".
 in C:\xampp\htdocs\ideality\protected\controllers\IdealityController.php (75)
 in C:\xampp\htdocs\ideality\index.php (13)
+2014/01/09 15:50:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "edit".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('edit')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ideality/edit')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ideality/index.php?r=ideality/edit&id=1
+HTTP_REFERER=http://localhost/ideality/index.php?r=site/pastideality
+---
+2014/01/09 15:51:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in C:\xampp\htdocs\ideality\protected\controllers\IdealityController.php:128
+Stack trace:
+#0 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): IdealityController->actionDelete()
+#1 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ideality/delete')
+#11 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/ideality/index.php?r=ideality/delete&id=1
+HTTP_REFERER=http://localhost/ideality/index.php?r=site/pastideality
+---
+2014/01/09 15:52:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in C:\xampp\htdocs\ideality\protected\controllers\IdealityController.php:128
+Stack trace:
+#0 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): IdealityController->actionDelete()
+#1 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ideality/delete')
+#11 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/ideality/index.php?r=ideality/delete&id=1
+HTTP_REFERER=http://localhost/ideality/index.php?r=site/pastideality
+---
+2014/01/09 15:52:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in C:\xampp\htdocs\ideality\protected\controllers\IdealityController.php:128
+Stack trace:
+#0 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): IdealityController->actionDelete()
+#1 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ideality/delete')
+#11 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/ideality/index.php?r=ideality/delete&id=1
+---
+2014/01/09 15:52:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in C:\xampp\htdocs\ideality\protected\controllers\IdealityController.php:128
+Stack trace:
+#0 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): IdealityController->actionDelete()
+#1 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ideality/delete')
+#11 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/ideality/index.php?r=ideality/delete
+---
+2014/01/09 15:54:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in C:\xampp\htdocs\ideality\protected\controllers\IdealityController.php:128
+Stack trace:
+#0 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): IdealityController->actionDelete()
+#1 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ideality/delete')
+#11 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/ideality/index.php?r=ideality/delete&id=3
+HTTP_REFERER=http://localhost/ideality/index.php?r=site/pastideality
+---
+2014/01/09 16:02:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in C:\xampp\htdocs\ideality\protected\controllers\IdealityController.php:128
+Stack trace:
+#0 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): IdealityController->actionDelete()
+#1 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ideality/delete')
+#11 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/ideality/index.php?r=ideality/delete&id=1
+HTTP_REFERER=http://localhost/ideality/index.php?r=site/pastideality
+---
+2014/01/09 16:02:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/delete".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/delete')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ideality/index.php?r=user/delete&id=1
+---
+2014/01/09 16:02:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in C:\xampp\htdocs\ideality\protected\controllers\CategoryController.php:124
+Stack trace:
+#0 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionDelete()
+#1 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('category/delete')
+#11 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/ideality/index.php?r=category/delete&id=1
+---
+2014/01/09 16:03:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in C:\xampp\htdocs\ideality\protected\controllers\CategoryController.php:124
+Stack trace:
+#0 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionDelete()
+#1 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('category/delete')
+#11 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/ideality/index.php?r=category/delete&id=1
+---
+2014/01/09 16:03:42 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in C:\xampp\htdocs\ideality\protected\controllers\CategoryController.php:124
+Stack trace:
+#0 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionDelete()
+#1 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#10 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('category/delete')
+#11 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/ideality/index.php?r=category/delete&id=1
+---
+2014/01/09 16:10:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/site/index".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/index')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ideality/index.php?r=user/site/index
+HTTP_REFERER=http://localhost/ideality/index.php?r=user/profile/profile
+---
+2014/01/09 16:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/site/index".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/site/index')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ideality\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ideality/index.php?r=user/site/index
+HTTP_REFERER=http://localhost/ideality/index.php?r=user/profile/profile
+---
